@@ -1,0 +1,81 @@
+.aText {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 14px;
+  text-anchor: middle;
+}
+
+.active {
+  font-weight: bolder;
+  fill: rgba(255, 0, 0, 0.842);
+  transition: fill 0s ease-out;
+  text-anchor: middle;
+}
+
+.inactive {
+  font-weight: lighter;
+  fill: #363636;
+  transition: fill 0s ease-out;
+  text-anchor: middle;
+}
+
+.inactive:hover {
+  fill: rgba(240, 12, 12, 0.808);
+  cursor: pointer;
+}
+
+/* font size dependent on radius, see app.js */
+.stateText {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  font-weight: 300;
+  fill: rgb(255, 0, 0);
+  text-anchor: middle;
+
+
+}
+
+.stateCircle {
+  fill: #000000;
+  stroke: #dddddd;
+  opacity: 0.85;
+
+
+
+}
+
+.chart {
+  display: inline;
+  margin: 4;
+  background: #e0e0e0;
+  font-size: 14;
+}
+
+.d3-tip {
+  padding: 4px;
+  font-family: monospace;
+  font-size: 18px;
+  line-height: 1.50;
+  color: rgb(0, 255, 0);
+  text-align: right;
+  text-transform: capitalize;
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 10px;
+  border-color: #ff0000;
+}
+
+/* Mobile Rules */
+@media screen and (max-width: 530px) {
+  .stateText {
+    display: none;
+  }
+
+  .aText {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .aText {
+    font-size: 14px;
+  }
+}
