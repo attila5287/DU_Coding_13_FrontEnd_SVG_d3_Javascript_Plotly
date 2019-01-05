@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Hair Metal</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-light" style="background-color: hsl(258, 69%, 76%);">
+		<ul class="nav justify-content-center">
+			<li><span class="navbar-toggler-icon"></span>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" href="#">Chart</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Data Browser</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="http://127.0.0.1:5500/indexX.html">Interactive Charts</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link disabled" href="#">DU Coding HW 13 | ATTILA TURKOZ</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="container">
+		<div align="center">
+			<button type="button" class="btn btn-primary">HTML</button>
+			<button type="button" class="btn btn-secondary">JavaScript</button>
+			<button type="button" class="btn btn-success">CSS</button>
+			<button type="button" class="btn btn-danger">DOM</button>
+			<button type="button" class="btn btn-warning">d3</button>
+			<button type="button" class="btn btn-info">ToolTip</button>
+			<button type="button" class="btn btn-dark">bootstrap</button>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="alert alert-danger" role="alert" align="center">
+					<b>* * * DATA VIZUALIZATION | SCATTER PLOT * * * </b>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<!-- chart starts-->
+				<div class="chart">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- chart ends -->
+	<!-- ------------- -->
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<li class="list-group-item list-group-item-info">
+					<h4>
+						Healthcare vs Poverty
+					</h4>
+				</li>
+				<div class="progress">
+					<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 85%" aria-valuenow="85"
+					 aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				<div class="card">
+					<div class="card-body">
+						<ul style="list-style-type:circle">
+							<li>
+								There is a strong relation between these two dimensions of dataset as it could briefly be seen that those
+								states with lower Poverty ratio has lower healthcare coverage deficiency.
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="alert alert-primary" role="alert" align="center">
+					<b>* * * INSTRUCTIONS * * * </b>
+				</div>
+
+				<li class="list-group-item list-group-item-info"> * each circle represents a state</li>
+				<li class="list-group-item list-group-item-light"> * not available: animated transition between each set</li>
+				<li class="list-group-item list-group-item-info"> * hover on circles/states for tooltip with x and y values</li>
+
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+.tooltip {
+  position: absolute;
+  width: 170px;
+  height: 80px;
+  padding: 2px;
+  padding-top: 8px;
+  font: 16px monospace;
+  color: rgb(9, 255, 0);
+  text-align: center;
+  background: #2a0463;
+  border: 0;
+  border-radius: 10px;
+}
+
+.axisText {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  fill: #551aaf;
+  text-anchor: middle;
+}
+
+.container {
+  padding: 10px;
+  border: 1px dashed #8260fa;
+}
