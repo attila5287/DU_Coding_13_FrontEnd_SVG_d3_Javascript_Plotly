@@ -1,0 +1,19 @@
+body {
+	margin: 0px;
+	overflow: hidden;
+}
+
+rect {
+	fill: rgb(15, 95, 36)
+	
+}
+
+text {
+	font-size: 1.4em;
+}
+
+.container{
+	padding: 10px;
+	margin : 30px;
+
+}
